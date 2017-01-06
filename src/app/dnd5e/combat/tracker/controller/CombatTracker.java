@@ -22,7 +22,6 @@ public class CombatTracker {
 		creatureData.setCondition(creatureView.getCondition());
 		creatureData.setHitPointsCur(Integer.parseInt(creatureView.getHpCur()));
 		creatureData.setHitPointsMax(Integer.parseInt(creatureView.getHpMax()));
-		// newCreature.setHitPointsDesc();
 		creatureData.setInitiative(Integer.parseInt(creatureView.getInitiative()));
 		creatureData.setName(creatureView.getName());
 		combatants.add(creatureData);
